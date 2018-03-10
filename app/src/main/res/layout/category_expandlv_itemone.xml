@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffeeeeee" >
+
+    <View
+        android:id="@id/category_expandlv_oneline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/category_expandlv_oneline" />
+
+    <RelativeLayout
+        android:id="@id/category_rlyt_oneitem"
+        android:layout_width="fill_parent"
+        android:layout_height="65.0dip"
+        android:layout_below="@id/category_expandlv_oneline"
+        android:background="@drawable/category_expandlv_itemone_bg_normal" >
+
+        <ImageView
+            android:id="@id/category_iv_itemone"
+            android:layout_width="50.0dip"
+            android:layout_height="41.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18.0dip"
+            android:layout_marginRight="17.0dip"
+            android:src="@drawable/shouyela"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:text="配饰"
+            android:id="@id/category_tv_oneitem"
+            style="@style/category_14_231f20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/category_iv_itemone" />
+
+        <ImageView
+            android:id="@id/category_iv_itemone_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16.0dip"
+            android:background="@drawable/category_iv_oneitem_arrow_down" />
+    </RelativeLayout>
+
+</RelativeLayout>

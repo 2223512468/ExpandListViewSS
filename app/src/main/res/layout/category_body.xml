@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/department_total_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffeeeeee" >
+
+    <ExpandableListView
+        android:id="@id/category_new_expandList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/category_new_two_bg"
+        android:cacheColorHint="#00000000"
+        android:childDivider="@null"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent" />
+
+</RelativeLayout>

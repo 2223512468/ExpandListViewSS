@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/category_tv_itemthree"
+    style="@style/style_12_ffffff"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="7.5dip"
+    android:background="@drawable/category_tv_itemthree_bg"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:maxLines="2"
+    android:paddingLeft="1.0dip"
+    android:paddingRight="1.0dip" />
